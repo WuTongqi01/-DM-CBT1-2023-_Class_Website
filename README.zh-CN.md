@@ -3,6 +3,17 @@
 > -DM-CBT1-2023-
 > Class Website GitHub Repository for Class 1 of Digital Media College Preparatory Program, Grade 2023, Qingsu Vocational Secondary School, Chengdu, Sichuan Province
 
+<div align="center">
+
+<h1>项目名称</h1>
+
+<p>
+  <a href="README.md">English</a> |
+  <a href="README.zh-CN.md">简体中文</a> 
+</p>
+
+</div>
+
 ## 项目简介
 
 本项目为四川省成都市青苏职业中专学校 **2023级数字媒体对口升学一班** 的班级网站。网站旨在记录班级成长历程、展示班级风采，为班级成员提供一个共享回忆的数字空间。
