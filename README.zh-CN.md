@@ -1,18 +1,16 @@
-# 班级网站项目：致青春 - 23数对一班
-
-> -DM-CBT1-2023-
-> Class Website GitHub Repository for Class 1 of Digital Media College Preparatory Program, Grade 2023, Qingsu Vocational Secondary School, Chengdu, Sichuan Province
-
 <div align="center">
-
-<h1>项目名称</h1>
-
+  
+<h1>班级网站项目：致青春 - 23数对一班</h1>
+  
 <p>
   <a href="README.md">English</a> |
-  <a href="README.zh-CN.md">简体中文</a> 
+  <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 </div>
+
+> -DM-CBT1-2023-
+> Class Website GitHub Repository for Class 1 of Digital Media College Preparatory Program, Grade 2023, Qingsu Vocational Secondary School, Chengdu, Sichuan Province
 
 ## 项目简介
 
