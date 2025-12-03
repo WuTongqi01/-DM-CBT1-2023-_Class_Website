@@ -12,6 +12,8 @@
 > -DM-CBT1-2023-
 > Class Website GitHub Repository for Class 1 of Digital Media College Preparatory Program, Grade 2023, Qingsu Vocational Secondary School, Chengdu, Sichuan Province
 
+<img src="image/other-image/background.jpg" alt="Project Background Image" title="项目背景（未授权）">
+
 ## 项目简介
 
 本项目为四川省成都市青苏职业中专学校 **2023级数字媒体对口升学一班** 的班级网站。网站旨在记录班级成长历程、展示班级风采，为班级成员提供一个共享回忆的数字空间。
@@ -21,26 +23,26 @@
 ```
 -DM-CBT1-2023-_Class_Website/
 │
-├── HTML页面文件/
-│   ├── index.html          # 自动跳转页面
-│   ├── main.html           # 网站首页
-│   ├── profile.html        # 班级介绍页面
-│   ├── members.html        # 班级成员页面
-│   ├── activities.html     # 班级活动页面
-│   ├── photo-album.html    # 班级相册页面
-│   └── about.html          # 关于我们页面
+|                           # HTML页面文件
+├── index.html              # 自动跳转页面
+├── main.html               # 网站首页
+├── profile.html            # 班级介绍页面
+├── members.html            # 班级成员页面
+├── activities.html         # 班级活动页面
+├── photo-album.html        # 班级相册页面
+├── about.html              # 关于我们页面
 │
-├── 样式与脚本/
-│   ├── main.css            # 主样式表
-│   └── main.js             # JavaScript功能文件
+|                           # 样式与脚本
+├── main.css                # 主样式表
+├── main.js                 # JavaScript功能文件
 │
-├── 图片资源/
-│   └── image/
-│       ├── other-image/    # 通用图片资源
-│       ├── student-image/  # 学生照片（格式：stuimg##.jpg）
-│       └── teacher-image/  # 老师照片
+├── image/                  # 图片资源
+│   ├── other-image/        # 通用图片资源
+│   ├── student-image/      # 学生照片（格式：stuimg##.jpg）
+│   └── teacher-image/      # 老师照片
 │
-└── README.md               # 项目说明文档
+├── README.md               # 项目说明文档（EN）
+└── README.zh-CN.md         # 项目说明文档（zh-CN）
 ```
 
 ## 功能特性
@@ -86,19 +88,24 @@
 ### 图片资源管理
 - 学生照片存放于 `image/student-image/`，命名格式：`stuimg##.jpg`
 - 老师照片存放于 `image/teacher-image/`，命名格式：`teacherimg##.jpg`
+  - 现任命名格式：`teacherimgn##.jpg`
+  - 前命名格式：`teacherimgb##.jpg`
 - 通用图片存放于 `image/other-image/`
 
 ## 配置与自定义
 
 ### 修改班级信息
 编辑对应HTML文件中的内容部分：
+- `main.html` - 调整首页内容
 - `profile.html` - 更新班级历史信息
 - `members.html` - 修改成员信息
-- `main.html` - 调整首页内容
+- `activities.html` - 添加活动信息
+- `photo-album.html` - 设置班级相册
 
 ### 样式调整
 编辑 `main.css` 文件：
 - 主色调变量：`#128afa`
+  > 蔚蓝档案标志蓝 - 蔚蓝 √
 - 响应式断点：`@media` 查询
 - 布局与组件样式
 
@@ -107,6 +114,16 @@
 ### 资源使用
 - 项目中使用的部分背景图片来源于网络，如需正式部署请确保使用合规资源或替换为原创内容
 - 学生与老师照片涉及隐私，公开部署前请获得相关授权
+- 现在已经使用的资源：
+  - `image/other-image/站娘破拆.gif` - 来自`https://kivo.wiki/`
+  - `image/other-image/aboutus-background.jpg` - 来自`https://kivo.wiki/`
+  - `image\other-image\background.jpg` - 来自`https://kivo.wiki/`
+  - `image\other-image\P_施工中表情包.png` - 来自`https://kivo.wiki/`
+  - `image\other-image\sd_model.gif` - 来自`https://kivo.wiki/`
+  - `image\other-image\to-youth.png` - 来自`https://kivo.wiki/`
+  - `image\studen-image\stuimg00.jpg` - 来自`https://www.51yuansu.com/sc/sscnfbxhtd.html`
+  - `image\teacher-image\bkfnb-w7mlq.jpg` - 来自`https://mp.weixin.qq.com/s`
+  - `image\teacher-image\teherimg01.jpg` - 来自`https://www.51yuansu.com/sc/sscnfbxhtd.html`
 
 ### 浏览器兼容性
 - 支持现代浏览器（Chrome 60+、Firefox 55+、Safari 11+、Edge 79+）
