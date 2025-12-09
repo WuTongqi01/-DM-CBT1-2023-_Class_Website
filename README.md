@@ -4,7 +4,7 @@
 
 <p>
   <a href="README.md">English</a> |
-  <a href="README.zh-CN.md">中文</a>
+  <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 </div>
@@ -41,6 +41,8 @@ This project is the class website for **Class 1 of the Digital Media College Pre
 │       ├── student-image/  # Student photos (format: stuimg##.jpg)
 │       └── teacher-image/  # Teacher photos
 │
+├── LICENSE                 # MIT License
+|
 ├── README.md               # Project documentation (EN)
 └── README.zh-CN.md         # Project documentation (zh-CN)
 ```
@@ -139,10 +141,8 @@ This project is a student work from **Class 1 of the Digital Media College Prepa
 
 ## License Notice
 
-This project currently does not have a specific open-source license. The project code is for learning and reference only. Some resources (such as images) are copyright of their original authors.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-**Hearts Lean Toward Goodness · Matters Pursue Beauty**
-
-*Preserving Youthful Memories, Digitally*
+**To be kind · To be beautiful**
